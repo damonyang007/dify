@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    image: dify-web
+    ports:
+      - "8000:3000"
+    environment:
+      CONSOLE_API_URL: "http://127.0.0.1:5001"
+      APP_API_URL: "http://127.0.0.1:5001"
+    restart: always

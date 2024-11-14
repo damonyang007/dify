@@ -193,3 +193,6 @@ api/.vscode
 
 .idea/
 .vscode
+
+/file/privkeys/*
+/api/core/tools/provider/builtin/searxng/*
